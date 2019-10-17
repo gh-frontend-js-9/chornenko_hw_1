@@ -1,0 +1,31 @@
+body {
+	margin-left: 25%;
+	margin-right: 25%;
+
+	}
+
+header {
+		text-align: center;
+	}
+
+.imgone {
+	display: flex;
+	float: left;
+	margin-right: 10px;
+
+}
+.imgtwo {
+	text-align:  center;
+}	
+
+img {
+	width: 300px;
+	height: 220px;
+	
+}
+.textcenter {
+	text-align: center;
+}
+.textright {
+	text-align: right;
+}
