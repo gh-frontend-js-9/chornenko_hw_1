@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Lessons "Forms": tags and atributtes</h1>
+  <h2>Tell something about yourself!</h2>
+  <span>Try create some form</span>
+    </header>
+
+     	<form name="anketa" method="post" action="#" >
+
+        <fieldset>
+    <legend><b>Briefly about yourself.</b></legend>
+  	<div><label for="nickname">Name:</label> <input type="text" id="nickname" name="nickname"></div>
+  	<div><label for="lastname">Last name:</label>  <input type="text" id="lastname" name="lastname"></div>
+      <span>Sex</span>
+    <div><input type="radio" name="sex" value="f1">Girl<input type="radio" name="sex" value="f2">Boy</div>
+    <div><input type="number" id="age" name="age"> <label for="age">Age.</label></div>
+    </fieldset>
+    
+        <fieldset>
+    <legend><b>In detail about yourself.</b></legend>
+    <div><input type="radio" name="sexx" value="f11">Girl<br> <input type="radio" name="sexx" value="f22">Boy</div>
+	  <div><input type="text" id="dateb" name="dateb"><label for="dateb">Date of birth.</label></div>
+    <div><input type="text" id="status" name="status"> <label for="status">Family status.</label></div>
+    <div><input type="text" id="socstatus" name="socstatus"><label for="socstatus">Sociaty status.</label> </div>
+    <div><input type="text" id="place" name="place"> <label for="place">Place of residence.</label></div>
+
+      <span><b>What do you do on the weekend?</b></span><br>
+   <ul>
+    <li><input type="checkbox" name="option1" value="a1">Sleep</li>
+    <li><input type="checkbox" name="option2" value="a2">Spend time with friends</li>
+    <li><input type="checkbox" name="option3" value="a3">Go on fish</li> 
+    <li><input type="checkbox" name="option4" value="a4">Play in game</li>
+  </ul>
+      <span><b>How many books have you read in your life?</b></span>
+  <ul>
+    <li><input type="radio" name="opt" value="o1">0-10</li>
+    <li><input type="radio" name="opt" value="o2">11-20</li>
+    <li><input type="radio" name="opt" value="o3">21-50</li>
+    <li><input type="radio" name="opt" value="o4">50+</li>
+  </ul>
+      <span><b>Your comment.</b></span>
+    <div><textarea rows="10" cols="20">
+    </textarea></div>
+    <div><select>
+    <option>Position 1</option>
+    <option>Position 2</option>
+    <option>Position 3</option>
+    </select></div>
+         </fieldset>
+    	 
+         <fieldset>
+    <legend><b>And finally.</b></legend>
+    <div><input type="text" id="text" name="text" value="This text field for you"></div>
+    <div><label for="user-email">Your e-mail:</label> <input type="email" id="user-email" name="user-email"></div>
+
+      <span><b>What do you want to see in our letter ?</b></span>
+    <ul > 
+    <li><input type="checkbox" name="spam1" value="sp1">Educations</li>
+    <li><input type="checkbox" name="spam2" value="sp2">How to cook</li>
+    <li><input type="checkbox" name="spam3" value="sp3">One million and more problem</li></ul>
+      <span><b>How challenging is it?</b></span>
+  <ul >
+    <li><input type="radio" name="hard" value="h1">Not at all.</li>
+    <li><input type="radio" name="hard" value="h2">So-so.</li>
+    <li><input type="radio" name="hard" value="h3">Hardly coped.</li>
+  </ul>
+    
+         </fieldset>
+        
+    <p><input type="submit" value="Send"></p>
+    	 </form>
+ 
+
+  </body>
+</html>
